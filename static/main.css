@@ -1,0 +1,21 @@
+.container {
+    /* Container takes full size */
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+}
+
+.overlay {
+    /* Take full size */
+    /* User still can see the content of main page */
+    background-color: gray;
+    width: 50px;
+
+}
+
+.sidebar {
+    /* Take full height */
+
+    /* Background */
+    background-color: blue;
+}
