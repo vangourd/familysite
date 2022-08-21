@@ -1,0 +1,44 @@
+.container {
+    /* Container takes full size */
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    padding: 50px;
+}
+
+.topbar {
+    /* Take full size */
+    /* User still can see the content of main page */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.topbar h1 {
+    font-family:"Gill Sans";
+}
+
+
+.logo {
+    width: 6%;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-image: url("/static/images/crest.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+.navbar li {
+    width: 5%;
+    text-decoration: none;
+    list-style: none;
+    margin:10px;
+}
